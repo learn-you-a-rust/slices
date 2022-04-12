@@ -31,4 +31,9 @@ fn main() {
 
     // Because string literals are slices already, this works too
     let word = first_word(my_string_literal);
+
+    let a = [1, 2, 3, 4, 5];
+    let slice = &a[1..3];
+
+    println!("{:?}", slice);
 }
